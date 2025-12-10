@@ -21,7 +21,7 @@ The pipeline supports three categories:
 
 ## 🏗️ Pipeline Architecture
 
-```mermaid
+```
 flowchart TD
     A[Get Metadata (List of Files)] --> B[ForEach - Loop Through Each File]
     B --> C[Get Metadata (File Size)]
@@ -32,7 +32,7 @@ flowchart TD
     D -->|>2 KB| G[Copy to Above2KB Folder]
 ````
 
----
+
 
 ## 🔧 Activities Used
 
