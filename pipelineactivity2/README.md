@@ -1,10 +1,3 @@
-Perfect — I will create the full **README.md for Pipeline 2**, based on your requirement:
-
-### ✅ **Union existing + incoming data → Remove duplicates → Keep incoming record when ID duplicates**
-
-Below is the complete **ready-to-use README.md**, formatted exactly for GitHub.
-
----
 
 
 # 📘 Azure Data Factory Pipeline  
