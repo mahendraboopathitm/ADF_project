@@ -146,15 +146,16 @@ Only cleaned, deduplicated, latest records are written to the final sink table.
 
 | ID  | Name | Salary |
 | --- | ---- | ------ |
-| 101 | Maha | 25000  |
-| 103 | John | 40000  |
+| 1 | Maha | 25000  |
+| 2 | John | 40000  |
 
 ### **Incoming Data (upcomedata)**
 
 | ID  | Name     | Salary |
 | --- | -------- | ------ |
-| 101 | Mahendra | 30000  |
-| 102 | Prabhu   | 35000  |
+| 1 | Mahendra | 30000  |
+| 2 | Prabhu   | 35000  |
+| 3 | maha   | 25000  |
 
 ---
 
@@ -162,10 +163,11 @@ Only cleaned, deduplicated, latest records are written to the final sink table.
 
 | ID  | Name     |
 | --- | -------- |
-| 101 | Maha     |
-| 103 | John     |
-| 101 | Mahendra |
-| 102 | Prabhu   |
+| 1 | Maha     |
+| 2 | John     |
+| 1 | Mahendra |
+| 2 | Prabhu   |
+| 3| maha   |
 
 ---
 
@@ -175,9 +177,10 @@ Incoming record wins when duplicate ID exists.
 
 | ID  | Name     | Salary |
 | --- | -------- | ------ |
-| 101 | Mahendra |        |
-| 102 | Prabhu   |        |
-| 103 | John     |        |
+| 1 | Maha |        |
+| 2 | john  |        |
+| 3 | mahendra     |        |
+| 4| prabhu    |        |
 
 ---
 
